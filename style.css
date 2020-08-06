@@ -1,0 +1,78 @@
+.main-container {
+    margin: 50px;
+    border: 1px solid #e3e2e1;
+    padding: 20px;
+    box-shadow: 0px -3px 5px 1px rgba(196,192,196,1);
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+li .span {
+    margin-left: 20px;
+}
+
+h4 {
+    position: relative;
+    top: -20px;
+    padding: 2px;
+    color: white;
+    text-align: center;
+    background-color: #fa7017;
+    border-radius: 40px;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    color: orange;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    text-decoration: underline;
+    box-shadow: 1px 1px 5px 1px rgba(97,96,97,1);
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    text-decoration: underline;
+    box-shadow: 1px 1px 5px 1px rgba(97,96,97,1);
+}
+
+/* Style the tab content */
+.tab-container {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin-top: 30px; 
+}
+
+.tabcontent {
+    color: grey;
+    padding: 6px 12px;
+    border: 1px solid orange;
+    border-bottom: 40px solid #fa7017;
+    margin: 2px;
+    border-radius: 5px;
+    background-color: white;
+    opacity: 0.5;
+}
